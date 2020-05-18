@@ -1,0 +1,16 @@
+fruit = {"orange":"a sweet",
+         "apple":"good cider",
+         "lemon":"yellow",
+         "lime":"good for tequila"
+}
+
+veg = {"cabbage": "for children",
+       "sprouts": "mmmm",
+       "spinach": "byuee"}
+
+veg.update(fruit)
+print(veg)
+
+nice_and_nasty = fruit.copy()
+nice_and_nasty.update(veg)
+print(nice_and_nasty)
